@@ -1,22 +1,29 @@
 {
-  "name": "ali-dev-book",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.31",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.0.2"
-  }
+    "name": "ali-dev-book",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "build": "next build",
+        "start": "next dev",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.6",
+        "@mantine/core": "^6.0.5",
+        "@mantine/hooks": "^6.0.5",
+        "@mantine/spotlight": "^6.0.5",
+        "@tabler/icons-react": "^2.12.0",
+        "@types/node": "18.15.11",
+        "@types/react": "18.0.31",
+        "@types/react-dom": "18.0.11",
+        "eslint": "8.37.0",
+        "eslint-config-next": "13.2.4",
+        "jotai": "^2.0.3",
+        "next": "13.2.4",
+        "next-compose-plugins": "^2.2.1",
+        "next-images": "^1.8.4",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "typescript": "5.0.2"
+    }
 }
