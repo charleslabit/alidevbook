@@ -37,6 +37,13 @@ export const Process = () => {
                             <Title order={1} id="process">
                                 Old vs New Process
                             </Title>
+
+                            <Box>
+                                <Text>
+                                    With parallelization, prequisite, and continuous integration deployment. From almost
+                                    1 day testing to 15-20minutes testing
+                                </Text>
+                            </Box>
                             <Table mt={30}>
                                 <thead>
                                     <tr>
@@ -67,6 +74,21 @@ export const Process = () => {
 
                                     <tr>
                                         <td width="15%">
+                                            <Text>One Time Login with Multiple Access</Text>
+                                        </td>
+                                        <td>
+                                            <Text>Not implemented</Text>
+                                        </td>
+                                        <td>
+                                            <Text>
+                                                User, admin and other roles credentials are store before the test and it
+                                                run once.
+                                            </Text>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td width="15%">
                                             <Text>Continuous Integration</Text>
                                         </td>
                                         <td>
@@ -75,8 +97,7 @@ export const Process = () => {
                                         <td>
                                             <Text>
                                                 It is implemented now and it automatically builds and run its server for
-                                                testing automatically inside pipeline. From almost 1 day to 15-20minutes
-                                                testing
+                                                testing automatically inside pipeline.
                                             </Text>
                                         </td>
                                     </tr>
