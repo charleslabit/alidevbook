@@ -74,7 +74,7 @@ export const Process = () => {
 
                                     <tr>
                                         <td width="15%">
-                                            <Text>One Time Login with Multiple Access</Text>
+                                            <Text>One Time Login with Multiple Access Role</Text>
                                         </td>
                                         <td>
                                             <Text>Not implemented</Text>
@@ -84,6 +84,18 @@ export const Process = () => {
                                                 User, admin and other roles credentials are store before the test and it
                                                 run once.
                                             </Text>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td width="15%">
+                                            <Text>Authenticating User</Text>
+                                        </td>
+                                        <td>
+                                            <Text>Credentials are public</Text>
+                                        </td>
+                                        <td>
+                                            <Text>Credentials are stored in private environment.</Text>
                                         </td>
                                     </tr>
 
