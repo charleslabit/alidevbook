@@ -4,6 +4,8 @@ import GlobalSetup1 from "../../../assets/global-setup1.png";
 import Structure from "../../../assets/structure.png";
 import Config1 from "../../../assets/config1.png";
 import Config2 from "../../../assets/config2.png";
+import AuthenticationImg from "../../../assets/authentication.png";
+import AuthenticationSample from "../../../assets/authenticationSample.png";
 import { useRouter } from "next/router";
 import {
     Accordion,
@@ -98,6 +100,32 @@ export const Installation = () => {
                                 <List.Item>utils: authentication and other utilities</List.Item>
                             </List>
                             <Image src={Structure} alt="structure" fit="contain" height={500} width={300} />
+                        </Box>
+
+                        <Box mt={50}>
+                            <Title order={1} id="authentication">
+                                Authentication
+                            </Title>
+                            <Title mt={30} order={2}>
+                                Inside utils folder create authentication.ts
+                            </Title>
+                            <List>
+                                <List.Item>
+                                    Create authUser function and read the file user.json in tests/auth folder.
+                                </List.Item>
+                                <List.Item>
+                                    Create authAdmin function and read the file admin.json in tests/auth folder.
+                                </List.Item>
+                                <List.Item>You can add more function with same format. (Optional)</List.Item>
+                                <List.Item>
+                                    You will call this authUser/authAdmin and pass the context in beforeEach function.
+                                </List.Item>
+                            </List>
+                            <Image src={AuthenticationImg} alt="auth1" fit="cover" />
+                            <Title order={5} mt={30} mb={10}>
+                                Sample Usage
+                            </Title>
+                            <Image src={AuthenticationSample} alt="auth2" fit="cover"></Image>
                         </Box>
                     </Stack>
                 </Grid.Col>
